@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 Random random = new Random();
                 int randomNum = random.nextInt(colorArrayLength);
 
+
                 backgroundView.setBackgroundColor(colors[randomNum]);
 
                 Log.d("Random" , String.valueOf(randomNum));
